@@ -9,7 +9,7 @@ License:	GPLv3
 Group:		Graphical desktop/Other
 URL:		https://github.com/captiva-project/captiva-icon-theme
 # git archive --format=tar --prefix=captiva-icon-theme-0.0.0-$(date +%Y%m%d)/ HEAD | xz -vf > captiva-icon-theme-0.0.0-$(date +%Y%m%d).tar.xz
-Source0:	https://github.com/captiva-project/%{name}/archive/%{name}-%{version}.tar.xz
+Source0:	https://github.com/captiva-project/%{name}/archive/%{name}-%{version}-%{snap}.tar.xz
 Requires:	hicolor-icon-theme
 
 %description
