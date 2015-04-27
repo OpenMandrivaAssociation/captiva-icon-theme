@@ -16,7 +16,7 @@ Requires:	hicolor-icon-theme
 Captiva icon theme.
 
 %prep
-%setup -q
+%setup -qn %{name}-%{version}-%{snap}
 
 %build
 
